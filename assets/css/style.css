@@ -99,8 +99,32 @@ font-size: large;
     background-color: aliceblue;
 }
 
-.ui-datepicker-year{
+.ui-datepicker-year {
     display:none;
+}
+
+.modal-head {
+    background-color:var(--dark-blue);
+    color:white;
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color:var(--lightest-blue);
+    font-size: 1.3rem;
+}
+
+.modal-footer {
+    background-color: var(--dark-blue);
+}
+
+.modal-buttonStyle {
+    background-color:var(--mid-blue);
+    border-color:var(--mid-blue);
+    box-shadow: 0 2px 4px black;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 1400px) {
